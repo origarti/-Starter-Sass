@@ -1,6 +1,6 @@
-# Bootstrap + SASS + GulpJS (**~90%**)
+# SASS + GulpJS (**~90%**)
 
-![Alt text](https://github.com/origarti/-Starter-Bootstrap-SASS/blob/master/www/dist/pic/header-bootstrap-sass.jpg?raw=true")
+![Alt text](https://github.com/origarti/-Starter-Sass/blob/master/www/dist/pic/header-sass.jpg?raw=true)
 
 # Bienvenue !
 
@@ -24,7 +24,6 @@ Ce projet est une base de travail créee par **[Gaëtan Ruiz](http://origarti.fr
 
 Pour cela, il utilise les technologies suivantes :
 
-*   [Bootstrap 3.3.5](http://getbootstrap.com/)
 *   [SASS](http://sass-lang.com/)
 *   [jQuery (1.9.1)](https://jquery.com/)
 *   [GulpJS](http://gulpjs.com/)
