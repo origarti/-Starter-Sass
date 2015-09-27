@@ -44,21 +44,14 @@ $xl-breakpoint:                                 ($xl-container + 20);
   float: left;
   padding-left: $gutter;
   padding-right: $gutter;
-}
-
-@for $i from 1 through $nbColumns {
-  .col-#{$i}{
-    width: ($i / $nbColumns) * 100%;
-  }
-  .col-push-#{$i}{
-    left: ($i / $nbColumns) * 100%;
-  }
-  .col-pull-#{$i}{
-    left: -($i / $nbColumns) * 100%;
+  &.np{
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
-@media only screen and (min-width: $mobile-breakpoint) {
+
+
   .container{
     max-width: $mobile-container;
   }
@@ -75,7 +68,7 @@ $xl-breakpoint:                                 ($xl-container + 20);
   }
   .hide-lg, .hide-xl, .show-sm, .show-md { display: block; }
   .hide-sm, .show-lg, .show-xl { display: none; }
-}
+
 @media only screen and (min-width: $tablet-breakpoint) {
     .container{
         max-width: $tablet-container;
