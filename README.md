@@ -12,6 +12,7 @@ Ce projet est une base de travail créee par **[Gaëtan Ruiz](http://origarti.fr
 *   Auto-préfixage du CSS
 *   Minification des sources CSS
 *   **UnCSS** : le fichier .css final n'utilise que les règles de style réellement employées par les fichiers HTML définis.
+*   Gestion de la grille responsive non plus grâce à des classes dans le html mais grâce à des mixins grâce à **Suzy**
 
 ## Javascript
 
@@ -27,3 +28,7 @@ Pour cela, il utilise les technologies suivantes :
 *   [SASS](http://sass-lang.com/)
 *   [jQuery (1.9.1)](https://jquery.com/)
 *   [GulpJS](http://gulpjs.com/)
+
+Mises à jour
+* 2015-10-01 - 16h00 - Remplacement du module de grid fait maison par **Suzy**
+[Pour en savoir plus sur comment installer / Utiliser Suzy](http://www.grafikart.fr/tutoriels/html-css/susy-grille-scss-658)
